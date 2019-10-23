@@ -47,13 +47,13 @@ read:[Concurrency model and the event loop](https://developer.mozilla.org/en-US/
 
 #### T: 知识和技巧
 
-**标准模型和IE模型设置**
+###### 标准模型和IE模型设置
 ```
 box-sizing:content-box//标准模型
 box-sizing:border-box//IE模型
 ```
 
-**盒模型重点:BFC(Block Formatting Context)的概念**
+###### 盒模型重点:BFC(Block Formatting Context)的概念
 
 BFC为块格式化上下文,主要为了解决父子级边距折叠等问题
 
@@ -64,7 +64,7 @@ BFC为块格式化上下文,主要为了解决父子级边距折叠等问题
 3. 大小包含内部的float元素大小
 4. 大小包含内部元素外边距
 
-**BFC的实现**
+###### BFC的实现
 
 1. float不为none
 2. display为flex或table相关
@@ -74,7 +74,7 @@ BFC为块格式化上下文,主要为了解决父子级边距折叠等问题
 上述四种满足任意一种块元素即变为BFC
 
 
-**html元素快捷输入**
+###### html元素快捷输入
 
 举例：
 ```
