@@ -32,7 +32,7 @@ date:2019.10.23
 
 |#|Question|Status|Language|
 |-|-|-|-|
-|0001|Two Sum|Accepted|js|
+|0002|Add Two Numbers|Accepted|js|
 
 
 #### R: 阅读和点评
