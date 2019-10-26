@@ -157,7 +157,7 @@ date:2019.10.25
 
 
 #### R: 阅读和点评
-read:[How to learn all programming languages](https://www.sevenson.com.au/actionscript/sat/)
+read:[How to learn all programming languages](https://www.coderscat.com/how-to-learn-all-pl)
 
 * 为什么会有各种编程语言
 
