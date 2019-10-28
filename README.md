@@ -197,7 +197,7 @@ read:[How to learn all programming languages](https://www.coderscat.com/how-to-l
 * 学习新语言的步骤
 
 1. 理解语言的设计思想和一般特征
-2. 跟着教程或数据学习语法并实践
+2. 跟着教程或书本学习语法并实践
 3. 做项目，阅读和编写大量代码
 4. 理解更多语言实现的细节
 
@@ -211,6 +211,42 @@ read:[How to learn all programming languages](https://www.coderscat.com/how-to-l
 
 #### S: 分享和输出
 好文章分享：如何学会所有编程语言
+
+---
+
+## 第5期
+
+date:2019.10.28
+
+#### A: 算法
+|#|Question|Status|Language|
+|-|-|-|-|
+|0008|String to Integer (atoi)|Accepted|js|
+|0009|Palindrome Number|Accepted|js|
+
+#### R: 阅读和点评
+read:[如何学习数据结构和算法](https://www.coderscat.com/how-to-learn-data-structures-and-algorithms)
+
+* 暂没发现新技巧
+
+#### T: 知识和技巧
+1. 编程算法设计要先列出所有情况，然后先处理特殊情况，再处理一般情况
+2. 学技术要深入理解概念和模式，不要死记硬背表面语法
+3. 永远不要忘记初始化
+
+#### S: 分享和输出
+1. styled-component：
+ 为了避免css文件污染全局（一个父模块导入的css文件影响了子模块的html），其中一个方法是借助第三方模块styled-component，styled-component允许我们把css样式按某种规则写在js文件，然后在模块中导入此js，则js文件中的样式只对当前模块有效。<br>
+通过styled-component中的styled模块可创建一个带样式的标签组件，然后将这个标签组件导出去，在jsx中就可以直接使用这个组件了。创建语法如下:
+
+```javascript
+export const ComponentDemo=styled.div`
+  height:50px;
+  background-color:green;
+` 
+```
+
+2. 一个dom节点携带的信息有且只有三个：标签名，标签属性和标签内容。使用一个带有这三个属性的对象即可唯一的描述一个dom节点。react中的jsx语法本质上就是一个描述了dom对象这三个属性的js对象。react通过这个对象来判断要渲染的节点是否发生了改变，及根据这个对象上的信息来渲染dom，这个对象称为虚拟dom。
 
 
 
