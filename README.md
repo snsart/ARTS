@@ -249,12 +249,51 @@ export const ComponentDemo=styled.div`
 2. 一个dom节点携带的信息有且只有三个：标签名，标签属性和标签内容。使用一个带有这三个属性的对象即可唯一的描述一个dom节点。react中的jsx语法本质上就是一个描述了dom对象这三个属性的js对象。react通过这个对象来判断要渲染的节点是否发生了改变，及根据这个对象上的信息来渲染dom，这个对象称为虚拟dom。
 
 
+## 第6期
+
+date:2019.10.28
+
+#### A: 算法
+|#|Question|Status|Language|
+|-|-|-|-|
+|0011|Container With Most Water |Accepted|js|
+|0012|Integer to Roman |Accepted|js|
+|0015|3Sum|Accepted|js|
+|0018|4Sum|Accepted|js|
+
+#### R: 阅读和点评
+read:[编程书籍推荐](https://www.coderscat.com/best-cs-books)
+###### 一般技能
+1. 《程序员修炼之道——从小工到专家》
+2. 《代码大全》
+3. 《计算机程序的构造和解析》SICP 
+###### 算法类
+1. 《编程珠玑》
+2. 《算法设计手册》
+3. 《算法导论》
+4. 《程序设计的艺术》
+5. 练习网站：[leetcode](https://leetcode.com/problemset/all/)和[hackerrank](https://www.hackerrank.com/)
+###### 编程语言和编译
+关于编程语言应该学习语言的核心概念，包括语义，计算模型和编程元素。如果对编程元素有深入的理解，学习新语言是很容易的。
+1. 《编程语言的本质》
+2. 《程序设计语言——实践之路》
+3. 《编译原理技术和工具》
+* 项目<br>
+1. [8cc](https://github.com/rui314/8cc)用c语言写的编译器
+2. [BuildYourOwnLisp](https://github.com/orangeduck/BuildYourOwnLisp)用1000行c代码写一个lisp解析器
+###### 系统
+1. 《Advanced Programming in the UNIX Environment》
+###### 计算机网络
+1. 《计算机网路——至顶向下方法》
+2. 《TCP-IP详解》1-3卷
+
+#### T: 知识和技巧
+1. 要取数组中的任意两个数，一般需要两重循环。为了优化性能，可考虑是否能设计两个指针，分别从头尾遍历数组，这样只需要一重循环即可拿到两个数。复杂度从O(n^2)降为O(n)。比如今日leetCode练习中的0011,0015和0018。另外一种方法是采用map，比如0001题：two Sum。
+2. 从虚拟DOM到真实dom的构建流程
 
 
-
-
-
-
+#### S: 分享和输出
+创建好虚拟DOM之后，虚拟dom影响真实dom的流程如下：1. 构建虚拟dom 2.将虚拟dom通过reactDom的render函数挂载在真实dom上 3.通过调用setState等方法导致虚拟Dom发生变化 4. 通过diff算法找出改变后的虚拟DOM和原虚拟DOM的不同 5. 将不同点作用在真实dom上
 
 
 
