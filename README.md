@@ -251,7 +251,7 @@ export const ComponentDemo=styled.div`
 
 ## 第6期
 
-date:2019.10.28
+date:2019.10.29
 
 #### A: 算法
 |#|Question|Status|Language|
