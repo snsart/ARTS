@@ -297,6 +297,48 @@ read:[编程书籍推荐](https://www.coderscat.com/best-cs-books)
 
 
 
+## 第7期
+
+date:2019.10.29
+
+#### A: 算法
+|#|Question|Status|Language|
+|-|-|-|-|
+|0013|Roman to Integer |Accepted|js|
+|0026|Remove Duplicates from Sorted Array|Accepted|js|
+|0027|Remove Element|Accepted|js|
+|0031|Next Permutation|Accepted|js|
+|0033|Search in Rotated Sorted Array|Accepted|js|
+|0034|Find First and Last Position of Element in Sorted Array|Accepted|js|
+
+#### R: 阅读和点评
+[创建一个虚拟现实语言沙盒](https://developer.ibm.com/industries/gaming/patterns/create-a-virtual-reality-speech-sandbox#flow)
+
+本文介绍了如何使用IBM Watson的语言识别系统和Watson Assistant创建一个虚拟现实语音系统，比如用声音控制生成一个盒子。工作流如下:
+1. 虚拟现实玩家说一个语音命令
+2. 虚拟现实应用程序从麦克风取得这个语音文件，并把语音发送给Watson语言识别系统
+3. 语言识别系统把这个声音转文文本并发送回应用程序
+4. 应用程序把文本发送给Waston辅助系统，辅助系统把文本识别为：意图+实体的模式，应用程序根据这个模式做出相应的反应，比如创建一个盒子。
+
+#### T: 知识和技巧
+
+###### 算法
+今天做的算法练习主要是关于数组方面的，比如数组去重，全排列，折半查找等。对我来说大都比较简单，稍微复杂点的是全排列问题，给定一个排列生成下一个排列，是一个按字典序对数组进行排序的问题，思考方法：先搞懂一个实例，看其方法是否能应用至全局。关于折半查找要考虑到前提，即数组必须是有序的，然后针对不同的变体分类思考。<br>
+思维模式总结:对于像数组字符串这类序列问题，通常可以使用双指针进行解决，双指针把序列分为了三个区间，每个区间代表不同的含义。
+
+###### react哲学 
+react项目开发思考模版
+1. 根据设计图和功能将页面划分为组件层级
+2. 针对划分好的每一个组件编写静态页面，即只有props属性的组件，在这一步只考虑页面呈现，不考虑任何逻辑和数据问题
+3. 确定每个组件state 的最小（且完整）表示
+4. 确定state 放置的位置。如果使用redux存数据，体现在如何划分数据
+5. 添加反向数据流，即组件如何影响数据。使用redux框架体现在编写和发送action
+以上就是react开发的整个流程，非常简单，只需要多练习熟悉一下即可。
+
+#### S: 分享和输出
+react哲学
+
+
 
 
 
