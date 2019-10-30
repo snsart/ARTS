@@ -299,7 +299,7 @@ read:[编程书籍推荐](https://www.coderscat.com/best-cs-books)
 
 ## 第7期
 
-date:2019.10.29
+date:2019.10.30
 
 #### A: 算法
 |#|Question|Status|Language|
