@@ -339,6 +339,28 @@ react项目开发思考模版
 react哲学
 
 
+## 第8期
+
+date:2019.10.31
+
+#### A: 算法
+|#|Question|Status|Language|
+|-|-|-|-|
+|0035|Search Insert Position|Accepted|js|
+|0039|Combination Sum|Accepted|js|
+|0040|Combination Sum II|Accepted|js|
+
+#### R: 阅读和点评
+
+
+#### T: 知识和技巧
+
+###### 算法
+
+
+#### S: 分享和输出
+react哲学
+
 
 
 
